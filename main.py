@@ -1,9 +1,9 @@
 from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
+from botoken import TOTOKEN
 
-
-TOKEN: Final = '6157329244:AAHTHFna_gkb_x6GbvAQNsA-f-AD6UyrmjY'
+TOKEN = TOTOKEN
 BOT_USERNAME: Final = '@overtaken_bot'
 
 
